@@ -1,0 +1,39 @@
+<form class="form-inline">
+  <div class="form-group">
+    <label for="exampleInputName2">Name</label>
+    <input type="text" class="form-control" id="exampleInputName2" placeholder="Candidate Name" 
+      ng-model="adding_call.name">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail2">Skill</label>
+    <input type="text" class="form-control" id="exampleInputSkill" placeholder="Skill"
+    ng-model="adding_call.skill">
+  </div>
+   <div class="form-group">
+    <label for="exampleInputEmail2">Salary</label>
+    <input type="text" class="form-control" id="exampleInputSalary" placeholder="Salary"
+    ng-model="adding_call.salary">
+  </div>
+     <div class="form-group">
+    <label for="exampleInputEmail2">Location</label>
+    <input type="text" class="form-control" id="exampleInputLocation" placeholder="Location"
+    ng-model="adding_call.location">
+  </div>
+
+  <button type="submit" class="btn btn-default">Add Call</button>
+</form>
+
+<table class="table table-hover">
+  <th>Name</th>
+  <th>Skill</th>
+  <th>Salary</th>
+  <th>Location</th>
+
+  <tr ng-repeat="call in calls">
+    <td label="Name">{{call.name}}</td>
+    <td label="Skill">{{call.skill}}</td>
+    <td label="Salary">{{call.salary}}</td>
+    <td label="Location">{{call.location}}</td>
+  </tr>
+
+</table>

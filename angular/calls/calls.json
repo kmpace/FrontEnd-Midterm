@@ -1,0 +1,26 @@
+[
+
+
+{
+	"name": "Todd Smith", 
+	"skill": ".NET",
+	"salary":"$100k",
+	"location":"New Jersey"
+
+	}, 
+
+	{
+		"name": "Korey Pace",
+		"skill": "Product",
+		"salary" : "$0k",
+		"location":"New York"
+	},
+
+	{
+		"name": "Watts Johnson",
+		"skill": "QA",
+		"salary": "90k",
+		"location": "New York"
+	}
+
+	]
